@@ -54,7 +54,7 @@ button{
 }
 
 #scrolling-pages{
-    width: 80vh;
+    width: 80vw;
     margin-left: 20vw;
 }
 
@@ -185,3 +185,81 @@ ul{
 #links i{
     font-size: 1rem;
 }
+
+
+@media only screen and (max-width: 500px) {
+   #center-nav{
+    display: none;
+   }
+   #sidebar{
+    display: none;
+   }
+
+   #scrolling-pages{
+    width: 100%;
+    margin-left: 0px;
+}
+#scrolling-pics {
+    position: relative;
+    width: 100vw;
+    height: 20vh;
+    /* background-color: red; */
+    
+}
+
+#about{
+    width: 100vw;
+    height: 50vh;
+    /* background-color: #423E3D; */
+    color: #000;
+    padding: 1rem;
+    text-align: center;
+}
+
+#products{
+    width: 100vw;
+    overflow: hidden;
+}
+.product{
+    width: 100vw;
+    height: 90vh;
+    /* padding: 2vw; */
+    display: block;
+    
+}
+.product .text{
+    padding: 3vw;
+    margin-top: 95vh;
+    width: 100vw;
+    height: 50vh;
+    /* background-color: red; */
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.product img{
+    height: 100%;
+    margin-top: 80vh;
+    
+}
+#footer{
+    padding: 2vw 0;
+    width: 100vw;
+    height: 70vh;
+    background-color: #423E3D;
+    display: block;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#contact-us h6{
+    display: block;
+    /* align-items: center; */
+    text-align: center;
+}
+
+
+}
+
+
