@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aeonik Pro';
+    /* color: #fff; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: #423E3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    position: fixed;
+    z-index: 20;
+}
+
+#navbar img{
+    height: 100%;
+    cursor: pointer;
+}
+#center-nav{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#center-nav a{
+    text-decoration: none;
+    color: #fff;
+
+}
+button{
+    padding: 1vh 1vw;
+    cursor: pointer;
+    background-color: #E37624;
+    border: none;
+    color: #fff;
+}
+
+#main-content{
+    display: inline-block;
+    margin-top: 10vh;
+}
+
+#scrolling-pages{
+    width: 80vh;
+    margin-left: 20vw;
+}
+
+#sidebar{
+    width: 20vw;
+    height: 90vh;
+    background-color: #E37624;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7vh 1vw;
+}
+ul{
+    list-style: none;
+
+}
+#sidebar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#scrolling-pics{
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    background-color: red;
+    overflow: hidden;
+}
+#about{
+    width: 80vw;
+    height: 50vh;
+    /* background-color: #423E3D; */
+    color: #000;
+    padding: 1rem;
+    text-align: center;
+}
+#about>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2.5rem;
+}
+#about h1{
+    color: #989699;
+    font-weight: 600;
+    /* margin-top: 10vh; */
+}
+#about p{
+    font-size: 1.2rem;
+}
+#about button{
+    margin-top: 3vh;
+}
+#about button a{
+    color: #fff;
+    text-decoration: none;
+}
+#about #bold{
+    font-style: italic;
+}
+
+#products{
+    width: 80vw;
+    overflow: hidden;
+}
+.product{
+    width: 80vw;
+    height: 90vh;
+    padding: 2vw;
+    display: flex;
+}
+.product img{
+    height: 100%;
+    margin-top: 10vh;
+}
+.product .text{
+    padding: 3vw;
+    margin-top: 15vh;
+    width: 50vw;
+    height: 50vh;
+    /* background-color: red; */
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.right button{
+    margin-left: 33vw;
+}
+.text button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer{
+    padding: 2vw 0;
+    width: 80vw;
+    height: 50vh;
+    background-color: #423E3D;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 10vh;
+}
+#footer h2{
+    color: #E37624;
+    margin-bottom: 3vh;
+}
+#contact-us{
+    display: flex;
+    flex-direction: column;
+}
+#contact-us h6{
+    display: flex;
+    align-items: center;
+}
+#contact-us i{
+    font-size: 1.5rem;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+}
+#links a{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+#links i{
+    font-size: 1rem;
+}
